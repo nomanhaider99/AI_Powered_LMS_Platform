@@ -41,7 +41,7 @@ export const Skiper58 = () => {
             <Link href={item.href}>
               <TextRoll
                 center
-                className="text-[3rem] font-extrabold uppercase leading-[0.8] tracking-[-0.03em] transition-colors lg:text-[3.8rem]"
+                className="md:text-[3rem] text-[2.5rem] font-extrabold uppercase leading-[0.8] tracking-[-0.03em] transition-colors lg:text-[3.8rem]"
               >
                 {item.name}
               </TextRoll>

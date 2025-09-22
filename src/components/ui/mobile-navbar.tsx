@@ -30,7 +30,7 @@ const MobileNavbar = (
                     </SheetDescription>
                 </SheetHeader>
                 <div className='flex flex-col gap-6 px-4'>
-                    <div className='flex flex-col gap-0 uppercase tracking-tighter text-[3.7rem] leading-16 font-extrabold'>
+                    <div className='flex flex-col gap-0 uppercase tracking-tighter text-[3rem] md:text-[3.7rem] leading-16 font-extrabold'>
                         <Skiper58 />
                     </div>
                     <div className='w-full flex flex-col gap-2'>
