@@ -5,7 +5,7 @@ export default function HeroText(
   { text }: { text: string }
 ) {
   return (
-    <section className="relative w-full flex items-center justify-center min-h-[220px] lg:min-h-[20px]">
+    <section className="relative w-full flex items-center min-h-[220px] lg:min-h-[20px]">
       <div
         className="absolute inset-0 pointer-events-none"
         aria-hidden

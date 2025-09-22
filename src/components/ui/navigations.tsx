@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import React from "react";
 
 import { cn } from "@/lib/utils";
+import Link from "next/link";
 
 const navigationItems = [
   {
@@ -23,7 +24,7 @@ const navigationItems = [
   },
   {
     name: "Contact",
-    href: "/contact",
+    href: "/reach-us",
     description: "[3]",
   },
 ];
@@ -37,12 +38,14 @@ export const Skiper58 = () => {
           key={index}
         >
           <div className="relative flex items-start">
-            <TextRoll
-              center
-              className="text-[3rem] font-extrabold uppercase leading-[0.8] tracking-[-0.03em] transition-colors lg:text-[3.8rem]"
-            >
-              {item.name}
-            </TextRoll>
+            <Link href={item.href}>
+              <TextRoll
+                center
+                className="text-[3rem] font-extrabold uppercase leading-[0.8] tracking-[-0.03em] transition-colors lg:text-[3.8rem]"
+              >
+                {item.name}
+              </TextRoll>
+            </Link>
           </div>
         </li>
       ))}

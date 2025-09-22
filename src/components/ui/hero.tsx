@@ -3,8 +3,6 @@ import { Button } from './button'
 import SignUp from './sign-up'
 import HeroText from './hero-text'
 import Link from 'next/link'
-import { FaHeart } from 'react-icons/fa6'
-import AnnouncementBar from './announcement-bar'
 
 const Hero = () => {
   return (

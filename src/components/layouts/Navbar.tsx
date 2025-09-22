@@ -18,8 +18,17 @@ const Navbar = () => {
             <div className='cursor-pointer'><CoolMode>Features</CoolMode>
             </div>
           </Link>
-          <div className='cursor-pointer'><CoolMode>AI Agents</CoolMode></div>
-          <div className='cursor-pointer'><CoolMode>Learn About Platform</CoolMode></div>
+          <Link href="/ai-agents">
+            <div className='cursor-pointer'><CoolMode>AI Agents</CoolMode>
+            </div>
+          </Link>
+          <Link href="/pricing">
+            <div className='cursor-pointer'><CoolMode>Pricing</CoolMode>
+            </div>
+          </Link>
+          <Link href="/reach-us">
+            <div className='cursor-pointer'><CoolMode>Reach Us</CoolMode></div>
+          </Link>
         </div>
       </div>
       <div className='flex items-center gap-4'>

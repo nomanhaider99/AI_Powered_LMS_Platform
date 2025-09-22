@@ -34,15 +34,11 @@ const MobileNavbar = (
                         <Skiper58 />
                     </div>
                     <div className='w-full flex flex-col gap-2'>
-                        <div className='w-full'>
-                            <SignUp
-                                opener={
-                                    <div>
-                                        <Button variant="outline">Get Started Now</Button>
-                                    </div>
-                                }
-                            />
-                        </div>
+                        <SignUp
+                            opener={
+                                <Button className='w-full' variant="outline">Get Started Now</Button>
+                            }
+                        />
                         <Button variant="secondary">Login Your Account</Button>
                     </div>
                 </div>
