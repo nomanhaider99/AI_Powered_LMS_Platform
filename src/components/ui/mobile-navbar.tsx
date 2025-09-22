@@ -35,9 +35,8 @@ const MobileNavbar = (
                     </div>
                     <div className='w-full flex flex-col gap-2'>
                         <SignUp
-                            opener={
-                                <Button className='w-full' variant="outline">Get Started Now</Button>
-                            }
+                            buttonText='Get Started Now'
+                            variant='outline'
                         />
                         <Button variant="secondary">Login Your Account</Button>
                     </div>

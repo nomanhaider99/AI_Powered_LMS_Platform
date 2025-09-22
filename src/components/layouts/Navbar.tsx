@@ -34,11 +34,8 @@ const Navbar = () => {
       <div className='flex items-center gap-4'>
         <AnimatedThemeToggler />
         <SignUp
-          opener={
-            <div>
-              <Button variant="outline">Get Started Now</Button>
-            </div>
-          }
+          buttonText='Get Started Now'
+          variant='outline'
         />
         <MobileNavbar
           opener={

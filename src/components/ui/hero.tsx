@@ -15,11 +15,8 @@ const Hero = () => {
             <div className='lg:px-20'>Noteflow is your AI-powered study assistant that transforms simple prompts into clear, structured notes. Preview, edit, and export directly to Google Docs in one click — making learning faster, smarter, and effortless.</div>
             <div className='flex justify-start gap-2'>
                 <SignUp
-                    opener={
-                        <div>
-                            <Button>Get Started</Button>
-                        </div>
-                    }
+                    buttonText='Get Started Now'
+                    variant='default'
                  />
                 <Button variant="outline">Write a Prompt</Button>
             </div>
